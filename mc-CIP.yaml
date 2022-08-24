@@ -4,9 +4,9 @@ metadata:
   name: vpromc
 spec:
   ports:
-    - port: 11211
-      targetPort: vpromc-port
-      protocol: TCP
+  - port: 11211
+    targetPort: vpromc-port
+    protocol: TCP
   selector:
     app: vpromc
   type: ClusterIP
